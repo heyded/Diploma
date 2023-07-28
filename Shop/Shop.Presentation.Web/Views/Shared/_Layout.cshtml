@@ -1,0 +1,89 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+
+    <title>@ViewBag.Title</title>
+
+    <link href="~/lib/bootstrap/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          type="text/css"
+          asp-append-version="true" />
+
+    <link href="~/css/site.css"
+          rel="stylesheet"
+          type="text/css"
+          asp-append-version="true" />
+
+</head>
+<body>
+    <nav class="navbar navbar-dark bg-dark navbar-expand-lg">
+        <a class="navbar-brand" href="/"><img src="~/flower_cactus_plant_nature_flower_pot_planter_garden_icon_141183 (1).ico" /> Магазин</a>
+
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav edge-pressed">
+                <div class="flex">
+                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="/Category/GetAll">Каталог</a>
+                    </li>
+                    <li  class="nav-item">
+                        <a class="nav-link" href="/Product/GetOrderedProducts">Корзина</a>
+                    </li>
+                </div>
+
+                <div class="flex">
+                    @if (SignInManager.IsSignedIn(User))
+                    {
+                        <li class="nav-item">
+                    <a id="manage" class="nav-link" asp-area="Identity" asp-page="/Account/Manage/Index" title="Manage">Здравствуйте, @UserManager.GetUserName(User)!</a>
+                        </li>
+                        <li class="nav-item">
+                            <form id="logoutForm" class="form-inline" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Action("Index", "Home", new { area = "" })">
+                                <button id="logout" type="submit" class="nav-link btn btn-link">Выход</button>
+                            </form>
+                        </li>
+                    }
+                    else
+                    {
+                        <li class="nav-item">
+                            <a class="nav-link" id="register" asp-area="Identity" asp-page="/Account/Register">Регестрация</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="login" asp-area="Identity" asp-page="/Account/Login">Вход</a>
+                        </li>
+                    }
+                </div>
+            </ul>
+        </div>
+    </nav>
+
+    <div>
+        @RenderBody()
+    </div>
+
+    @RenderSection("Scripts", false);
+</body>
+<footer>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"
+            type="text/javascript"
+            asp-append-version="true"></script>
+
+    <script src="~/js/site.js"
+            type="text/javascript"
+            asp-append-version="true"></script>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"
+            type="text/javascript"
+            asp-append-version="true"></script>
+
+    <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"
+            type="text/javascript"
+            asp-append-version="true"></script>
+
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"
+            type="text/javascript"
+            asp-append-version="true"></script>
+</footer>
+</html>

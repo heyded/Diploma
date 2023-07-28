@@ -1,0 +1,43 @@
+﻿    @model List<Product>
+
+<div class="header">
+    <h1>Цена: @Model.Sum(x => x.Price).ToString("c", System.Globalization.CultureInfo.GetCultureInfo("Be")) </h1>
+   
+</div>
+<div class="grid-items">
+    @{
+        foreach (var product in Model)
+        {
+            <div class="card col-sm-4">
+                <div class="card-body pb-0">
+                    <h5 class="card-title">@product.Name</h5>
+
+                    <img class="img-thumbnail default-img-size"
+                         src="@product.ImagePath"
+                         alt="@product.Name"
+                         asp-append-version="true" />
+
+                </div>
+                <div class="card-body">
+                    <p>@product.Description</p>
+
+                    <div class="edge-pressed">
+                        <div class="horizontal-items">
+                            <p class="ml-2">@product.Price.ToString("c", System.Globalization.CultureInfo.GetCultureInfo("Be"))</p>
+                        </div>
+
+                        <div>
+                            <a href="/Product/DeleteOrderedProduct?ProductId=@product.Id"
+                               class="btn btn-danger">🧺</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
+    }
+</div>
+<div class="horizontal-center">
+    <a href="/Product/PayOrderedProducts" class="btn btn-success mr-2">Купить</a>
+    <a href="#" class="btn btn-primary">Вверх</a>
+    <a href="/Category/GetAll" class="btn btn-danger ml-2">Назад</a>
+</div>

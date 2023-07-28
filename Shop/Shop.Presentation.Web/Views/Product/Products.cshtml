@@ -1,0 +1,42 @@
+﻿@model List<Product>
+
+<div class="header">
+    <a is-displayed="@User.IsInRole(Role.Admin.ToString())" href="/Product/Get?categoryName=@ViewBag.CategoryName" class="btn btn-warning mr-2">➕</a>
+
+    <h1>@ViewBag.CategoryName</h1>
+</div>
+<div class="grid-items">
+    @{
+        foreach (var product in Model)
+        {
+            <div class="card col-sm-4">
+                <div class="card-body pb-0">
+                    <h5 class="card-title">@product.Name</h5>
+
+                    <img class="img-thumbnail default-img-size"
+                         src="@product.ImagePath"
+                         alt="@product.Name"
+                         asp-append-version="true" />
+
+                </div>
+                <div class="card-body">
+                    <p>@product.Description</p>
+
+                    <div class="edge-pressed">
+                        <div class="horizontal-items">
+                            <a  href="/Product/Buy?ProductId=@product.Id&CategoryName=@ViewBag.CategoryName" class="btn btn-success">Добавить в корзину</a>
+
+                            <p class="ml-2">@product.Price.ToString("c", System.Globalization.CultureInfo.GetCultureInfo("Be"))</p>
+                           
+                        </div>
+
+                        <div is-displayed="@User.IsInRole(Role.Admin.ToString())">
+                            <a class="btn btn-warning" href="/Product/Get?ProductName=@product.Name&CategoryName=@ViewBag.CategoryName">📝</a>
+                            <a class="btn btn-danger" href="/Product/Delete?ProductId=@product.Id&CategoryName=@ViewBag.CategoryName">🧺</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
+    }
+</div>

@@ -1,0 +1,66 @@
+﻿@model Product
+
+@{
+    var productId = 0;
+    productId = Model == null ? 0 : Model.Id;
+}
+
+<div class="container">
+    <div class="row-mb-6">
+        @if (Model == null)
+        {
+            <h3>Product creation</h3>
+        }
+        else
+        {
+            <h3 class="horizontal-center">@Model.Name editing</h3>
+            <img class="img-thumbnail default-img-size"
+                 src="@Model.ImagePath"
+                 alt="@Model.Name"
+                 asp-append-version="true" />
+        }
+        <form asp-controller="Product" asp-action="CreateOrUpdate" asp-route-categoryName="@ViewBag.CategoryName" method="POST">
+            <div class="validation" asp-validation-summary="ModelOnly"></div>
+            <div class="form-group" hidden>
+                <input asp-for="Id" value="@productId" class="form-control" />
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Name"></label>
+                <div class="col-12">
+                    <input asp-for="Name" class="form-control" />
+                    <span asp-validation-for="Name" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Description"></label>
+                <div class="col-12">
+                    <input asp-for="Description" class="form-control" />
+                    <span asp-validation-for="Description" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Price"></label>
+                <div class="col-12">
+                    <input asp-for="Price" class="form-control" />
+                    <span asp-validation-for="Price" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="ImagePath"></label>
+                <div class="col-12">
+                    <input asp-for="ImagePath" class="form-control" />
+                    <span asp-validation-for="ImagePath" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div class="horizontal-space-evenly pb-2">
+                <input class="btn btn-success" type="submit" value="✔" />
+                <a href="/Product/GetAll?CategoryName=@ViewBag.CategoryName" class="btn btn-danger">❌</a>
+            </div>
+        </form>
+    </div>
+</div>
