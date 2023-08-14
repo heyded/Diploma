@@ -9,11 +9,11 @@
     @{
         foreach (var product in Model)
         {
-            <div class="card col-sm-4">
-                <div class="card-body pb-0">
+            <div class="card border-secondary col-sm-3 mr-1 ml-2 mb-1" style="max-width: 19rem;">
+                <div class="card-body pb-0" style="max-height: 14rem;">
                     <h5 class="card-title">@product.Name</h5>
 
-                    <img class="img-thumbnail default-img-size"
+                    <img class="img-thumbnail default-img-size" style="max-height: 10rem;"
                          src="@product.ImagePath"
                          alt="@product.Name"
                          asp-append-version="true" />
@@ -26,7 +26,8 @@
                         <div class="horizontal-items">
                             <a  href="/Product/Buy?ProductId=@product.Id&CategoryName=@ViewBag.CategoryName" class="btn btn-success">Добавить в корзину</a>
 
-                            <p class="ml-2">@product.Price.ToString("c", System.Globalization.CultureInfo.GetCultureInfo("Be"))</p>
+                            <p class="ml-2">@product.Price.ToString("c", System.Globalization.CultureInfo.GetCultureInfo("en-US"))</p>
+                            <p> </p>
                            
                         </div>
 
@@ -37,6 +38,9 @@
                     </div>
                 </div>
             </div>
-        }
+        }       
     }
+</div>
+<div class="horizontal-center">
+    <a href="/Category/GetAll" class="btn btn-danger mt-1 mb-1">Назад</a>
 </div>

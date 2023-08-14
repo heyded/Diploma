@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "nQHoB3zWXtzCm+HX7H2QZB02c/MLjldEgFhy/fvUTySC8Rf1RAGJBOGz1JkYtn5QmkCsWHOqay/QaZCprYB1FA==",
+  "dgSpecHash": "1BnIpPDEaZX/NoGFXIJdZskp2gyxRqRd0SPwxGznsW16FGWWMaEhD0UiAshciUboNCEjr3wHfzFsnKR2sXRyvQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ab231\\OneDrive\\Рабочий стол\\диплом\\Shop\\Shop.BusinessLogic\\Shop.BusinessLogic.csproj",
+  "projectFilePath": "C:\\Users\\ab231\\OneDrive\\Документы\\GitHub\\diploma\\Shop\\Shop.BusinessLogic\\Shop.BusinessLogic.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ab231\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
     "C:\\Users\\ab231\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512",

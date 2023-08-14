@@ -52,11 +52,17 @@
             @{
                 if ((Model.ExternalLogins?.Count ?? 0) == 0)
                 {
-                    <div>
-                        <p>
-                            There are no external authentication services configured. See <a href="https://go.microsoft.com/fwlink/?LinkID=532715">this article</a>
-                            for details on setting up this ASP.NET application to support logging in via external services.
-                        </p>
+
+                    <div class="col">
+                        <a href="#" class="fb btn">
+                            <i class="fa fa-facebook fa-fw"></i> Войти Facebook
+                        </a>
+                        <a href="#" class="twitter btn">
+                            <i class="fa fa-twitter fa-fw"></i> Войти Twitter
+                        </a>
+                        <a href="#" class="google btn">
+                            <i class="fa fa-google fa-fw"></i> Войти Google+
+                        </a>
                     </div>
                 }
                 else

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "tsB8QaJWP8MuYIMKiWfad096/PdbarNQYYbmtsF3Acu11CfbIcQXPypCpTfAUKzOHZWQQW2GHuMyWEMUrZHuLA==",
+  "dgSpecHash": "cyCR3PHxcbfULeZRAc9UHrSHRzN/haqIKFPjfMUWTwXFupiYf+0UmgsT8bmUsOA5Wkq6XE7D8748QdTY2z+8IQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ab231\\OneDrive\\Рабочий стол\\диплом\\Shop\\Shop.DataAccess.EFCore\\Shop.DataAccess.EFCore.csproj",
+  "projectFilePath": "C:\\Users\\ab231\\OneDrive\\Документы\\GitHub\\diploma\\Shop\\Shop.DataAccess.EFCore\\Shop.DataAccess.EFCore.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ab231\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\ab231\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.1\\microsoft.bcl.hashcode.1.1.1.nupkg.sha512",

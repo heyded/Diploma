@@ -18,3 +18,13 @@ C:\Users\developer\source\repos\Shop\Shop.BusinessLogic\obj\Debug\netcoreapp3.1\
 C:\Users\developer\source\repos\Shop\Shop.BusinessLogic\obj\Debug\netcoreapp3.1\Shop.BusinessLogic.csproj.CoreCompileInputs.cache
 C:\Users\developer\source\repos\Shop\Shop.BusinessLogic\obj\Debug\netcoreapp3.1\Shop.BusinessLogic.dll
 C:\Users\developer\source\repos\Shop\Shop.BusinessLogic\obj\Debug\netcoreapp3.1\Shop.BusinessLogic.pdb
+C:\Users\ab231\OneDrive\Рабочий стол\диплом\Shop\Shop.BusinessLogic\bin\Debug\netcoreapp3.1\Shop.BusinessLogic.deps.json
+C:\Users\ab231\OneDrive\Рабочий стол\диплом\Shop\Shop.BusinessLogic\bin\Debug\netcoreapp3.1\Shop.BusinessLogic.dll
+C:\Users\ab231\OneDrive\Рабочий стол\диплом\Shop\Shop.BusinessLogic\bin\Debug\netcoreapp3.1\Shop.BusinessLogic.pdb
+C:\Users\ab231\OneDrive\Рабочий стол\диплом\Shop\Shop.BusinessLogic\obj\Debug\netcoreapp3.1\Shop.BusinessLogic.csproj.AssemblyReference.cache
+C:\Users\ab231\OneDrive\Рабочий стол\диплом\Shop\Shop.BusinessLogic\obj\Debug\netcoreapp3.1\Shop.BusinessLogic.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ab231\OneDrive\Рабочий стол\диплом\Shop\Shop.BusinessLogic\obj\Debug\netcoreapp3.1\Shop.BusinessLogic.AssemblyInfoInputs.cache
+C:\Users\ab231\OneDrive\Рабочий стол\диплом\Shop\Shop.BusinessLogic\obj\Debug\netcoreapp3.1\Shop.BusinessLogic.AssemblyInfo.cs
+C:\Users\ab231\OneDrive\Рабочий стол\диплом\Shop\Shop.BusinessLogic\obj\Debug\netcoreapp3.1\Shop.BusinessLogic.csproj.CoreCompileInputs.cache
+C:\Users\ab231\OneDrive\Рабочий стол\диплом\Shop\Shop.BusinessLogic\obj\Debug\netcoreapp3.1\Shop.BusinessLogic.dll
+C:\Users\ab231\OneDrive\Рабочий стол\диплом\Shop\Shop.BusinessLogic\obj\Debug\netcoreapp3.1\Shop.BusinessLogic.pdb

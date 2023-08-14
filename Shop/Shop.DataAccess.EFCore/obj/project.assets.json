@@ -5934,11 +5934,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ab231\\OneDrive\\Рабочий стол\\диплом\\Shop\\Shop.DataAccess.EFCore\\Shop.DataAccess.EFCore.csproj",
+      "projectUniqueName": "C:\\Users\\ab231\\OneDrive\\Документы\\GitHub\\diploma\\Shop\\Shop.DataAccess.EFCore\\Shop.DataAccess.EFCore.csproj",
       "projectName": "Shop.DataAccess.EFCore",
-      "projectPath": "C:\\Users\\ab231\\OneDrive\\Рабочий стол\\диплом\\Shop\\Shop.DataAccess.EFCore\\Shop.DataAccess.EFCore.csproj",
+      "projectPath": "C:\\Users\\ab231\\OneDrive\\Документы\\GitHub\\diploma\\Shop\\Shop.DataAccess.EFCore\\Shop.DataAccess.EFCore.csproj",
       "packagesPath": "C:\\Users\\ab231\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ab231\\OneDrive\\Рабочий стол\\диплом\\Shop\\Shop.DataAccess.EFCore\\obj\\",
+      "outputPath": "C:\\Users\\ab231\\OneDrive\\Документы\\GitHub\\diploma\\Shop\\Shop.DataAccess.EFCore\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ab231\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -5955,8 +5955,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\ab231\\OneDrive\\Рабочий стол\\диплом\\Shop\\Shop.BusinessLogic\\Shop.BusinessLogic.csproj": {
-              "projectPath": "C:\\Users\\ab231\\OneDrive\\Рабочий стол\\диплом\\Shop\\Shop.BusinessLogic\\Shop.BusinessLogic.csproj"
+            "C:\\Users\\ab231\\OneDrive\\Документы\\GitHub\\diploma\\Shop\\Shop.BusinessLogic\\Shop.BusinessLogic.csproj": {
+              "projectPath": "C:\\Users\\ab231\\OneDrive\\Документы\\GitHub\\diploma\\Shop\\Shop.BusinessLogic\\Shop.BusinessLogic.csproj"
             }
           }
         }
@@ -6012,7 +6012,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }

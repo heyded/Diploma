@@ -17,23 +17,35 @@
           asp-append-version="true" />
 
 </head>
+<script src="https://bot.jaicp.com/chatwidget/TRiOYYty:412036f4574810951d2d6292dd7cc1556f03bd2c/justwidget.js?force=true" async></script>
 <body>
-    <nav class="navbar navbar-dark bg-dark navbar-expand-lg">
+    <nav class="navbar navbar-light navbar-expand-lg " style="background-color: #D8BFD8;">
         <a class="navbar-brand" href="/"><img src="~/flower_cactus_plant_nature_flower_pot_planter_garden_icon_141183 (1).ico" /> Магазин</a>
 
         <div class="collapse navbar-collapse">
             <ul class="navbar-nav edge-pressed">
-                <div class="flex">
-                    
-                    <li class="nav-item">
-                        <a class="nav-link" href="/Category/GetAll">Каталог</a>
-                    </li>
-                    <li  class="nav-item">
-                        <a class="nav-link" href="/Product/GetOrderedProducts">Корзина</a>
-                    </li>
-                </div>
+                <div class="flex">        
+                <li class="nav-item">
+                    <a class="navbar-brand href="#"><img width="34" height="34" src="https://img.icons8.com/ios-filled/50/apple-phone.png" alt="apple-phone" />:+375298903607</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/Category/GetAll">Каталог</a>
+                </li>
+        </div>
 
-                <div class="flex">
+        <!--  <div class="dropdown">
+        <button class="dropbtn">Каталог</button>
+        <div class="dropdown-content">
+            <a href="#">Link 2</a>  
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+        </div>
+        </div>  -->
+      
+        <div class="flex">
+            <li class="nav-item">
+                <a class="nav-link" href="/Product/GetOrderedProducts">Корзина<img width="24" height="24" src="https://img.icons8.com/material-outlined/24/shopping-cart--v1.png" alt="shopping-cart--v1" /></a>
+            </li>
                     @if (SignInManager.IsSignedIn(User))
                     {
                         <li class="nav-item">
@@ -48,7 +60,7 @@
                     else
                     {
                         <li class="nav-item">
-                            <a class="nav-link" id="register" asp-area="Identity" asp-page="/Account/Register">Регестрация</a>
+                    <a class="nav-link" id="register" asp-area="Identity" asp-page="/Account/Register">Регистрация</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" id="login" asp-area="Identity" asp-page="/Account/Login">Вход</a>
@@ -62,28 +74,13 @@
     <div>
         @RenderBody()
     </div>
-
-    @RenderSection("Scripts", false);
+    @RenderSection("Scripts", false)
+    <div class="topnav topnav-light topnav-expand-lg">
+        <div class="topnav-right">
+            <a href="https://www.instagram.com/artembogo16/"><img width="35" height="35" src="https://img.icons8.com/glyph-neue/64/instagram-new--v1.png" alt="instagram-new--v1" /></a>
+            <a href="https://vk.com/artyom.bogomolov"><img width="35" height="35" src="https://img.icons8.com/glyph-neue/64/vk-com.png" alt="vk-com" /></a>
+            <a href="https://web.telegram.org/"><img width="35" height="35" src="https://img.icons8.com/ios-filled/50/telegram.png" alt="telegram" /></a>
+        </div>
+    </div>
 </body>
-<footer>
-    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"
-            type="text/javascript"
-            asp-append-version="true"></script>
-
-    <script src="~/js/site.js"
-            type="text/javascript"
-            asp-append-version="true"></script>
-
-    <script src="~/lib/jquery/dist/jquery.min.js"
-            type="text/javascript"
-            asp-append-version="true"></script>
-
-    <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"
-            type="text/javascript"
-            asp-append-version="true"></script>
-
-    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"
-            type="text/javascript"
-            asp-append-version="true"></script>
-</footer>
 </html>

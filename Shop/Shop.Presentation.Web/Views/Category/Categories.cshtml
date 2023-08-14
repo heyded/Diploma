@@ -4,16 +4,19 @@
     <a is-displayed="@User.IsInRole(Role.Admin.ToString())" href="/Category/Get" class="btn btn-warning mr-2">➕</a>
 
     <h1>Каталог 📃</h1>
+
 </div>
 <div class="grid-items">
     @{
         foreach (var category in Model)
         {
-            <div class="card col-sm-4">
-                <img class="card-img-top default-img-size"
-                     src="@category.ImagePath"
-                     alt="@category.Name"
-                     asp-append-version="true" />
+            <div class="card border-secondary col-sm-3 mr-1 ml-2 mb-1" style="max-width: 23rem;">
+                <a class="btn" href="/Product/GetAll?CategoryName=@category.Name">
+                    <img class="img-thumbnail default-img-size" style="max-height: 18rem;"
+                         src="@category.ImagePath"
+                         alt="@category.Name"
+                         asp-append-version="true" />
+                </a>
 
                 <div class="card-body">
                     <h5 class="card-title">@category.Name</h5>
@@ -32,4 +35,6 @@
             </div>
         }
     }
+
+ 
 </div>

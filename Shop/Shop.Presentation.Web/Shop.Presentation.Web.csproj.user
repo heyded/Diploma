@@ -15,6 +15,6 @@
     <WebStackScaffolding_LayoutPageFile>~/Views/Shared/_Layout.cshtml</WebStackScaffolding_LayoutPageFile>
     <WebStackScaffolding_DbContextDialogWidth>650</WebStackScaffolding_DbContextDialogWidth>
     <WebStackScaffolding_IdentityDialogWidth>650</WebStackScaffolding_IdentityDialogWidth>
-    <NameOfLastUsedPublishProfile>C:\Users\developer\source\repos\Shop\Shop.Presentation.Web\Properties\PublishProfiles\catpuff13337-001-site1 - Web Deploy.pubxml</NameOfLastUsedPublishProfile>
+    <NameOfLastUsedPublishProfile>heyded-001-site1 - FTP</NameOfLastUsedPublishProfile>
   </PropertyGroup>
 </Project>

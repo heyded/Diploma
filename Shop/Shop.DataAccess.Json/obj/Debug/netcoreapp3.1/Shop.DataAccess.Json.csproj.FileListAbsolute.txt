@@ -24,3 +24,16 @@ C:\Users\developer\source\repos\Shop\Shop.DataAccess.Json\obj\Debug\netcoreapp3.
 C:\Users\developer\source\repos\Shop\Shop.DataAccess.Json\obj\Debug\netcoreapp3.1\Shop.DataAccess.Json.csproj.CopyComplete
 C:\Users\developer\source\repos\Shop\Shop.DataAccess.Json\obj\Debug\netcoreapp3.1\Shop.DataAccess.Json.dll
 C:\Users\developer\source\repos\Shop\Shop.DataAccess.Json\obj\Debug\netcoreapp3.1\Shop.DataAccess.Json.pdb
+C:\Users\ab231\OneDrive\Рабочий стол\диплом\Shop\Shop.DataAccess.Json\bin\Debug\netcoreapp3.1\Shop.DataAccess.Json.deps.json
+C:\Users\ab231\OneDrive\Рабочий стол\диплом\Shop\Shop.DataAccess.Json\bin\Debug\netcoreapp3.1\Shop.DataAccess.Json.dll
+C:\Users\ab231\OneDrive\Рабочий стол\диплом\Shop\Shop.DataAccess.Json\bin\Debug\netcoreapp3.1\Shop.DataAccess.Json.pdb
+C:\Users\ab231\OneDrive\Рабочий стол\диплом\Shop\Shop.DataAccess.Json\bin\Debug\netcoreapp3.1\Shop.BusinessLogic.dll
+C:\Users\ab231\OneDrive\Рабочий стол\диплом\Shop\Shop.DataAccess.Json\bin\Debug\netcoreapp3.1\Shop.BusinessLogic.pdb
+C:\Users\ab231\OneDrive\Рабочий стол\диплом\Shop\Shop.DataAccess.Json\obj\Debug\netcoreapp3.1\Shop.DataAccess.Json.csproj.AssemblyReference.cache
+C:\Users\ab231\OneDrive\Рабочий стол\диплом\Shop\Shop.DataAccess.Json\obj\Debug\netcoreapp3.1\Shop.DataAccess.Json.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ab231\OneDrive\Рабочий стол\диплом\Shop\Shop.DataAccess.Json\obj\Debug\netcoreapp3.1\Shop.DataAccess.Json.AssemblyInfoInputs.cache
+C:\Users\ab231\OneDrive\Рабочий стол\диплом\Shop\Shop.DataAccess.Json\obj\Debug\netcoreapp3.1\Shop.DataAccess.Json.AssemblyInfo.cs
+C:\Users\ab231\OneDrive\Рабочий стол\диплом\Shop\Shop.DataAccess.Json\obj\Debug\netcoreapp3.1\Shop.DataAccess.Json.csproj.CoreCompileInputs.cache
+C:\Users\ab231\OneDrive\Рабочий стол\диплом\Shop\Shop.DataAccess.Json\obj\Debug\netcoreapp3.1\Shop.DataAccess.Json.csproj.CopyComplete
+C:\Users\ab231\OneDrive\Рабочий стол\диплом\Shop\Shop.DataAccess.Json\obj\Debug\netcoreapp3.1\Shop.DataAccess.Json.dll
+C:\Users\ab231\OneDrive\Рабочий стол\диплом\Shop\Shop.DataAccess.Json\obj\Debug\netcoreapp3.1\Shop.DataAccess.Json.pdb

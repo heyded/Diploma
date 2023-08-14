@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ab231\\OneDrive\\Рабочий стол\\диплом\\Shop\\Shop.BusinessLogic\\Shop.BusinessLogic.csproj": {}
+    "C:\\Users\\ab231\\OneDrive\\Документы\\GitHub\\diploma\\Shop\\Shop.BusinessLogic\\Shop.BusinessLogic.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ab231\\OneDrive\\Рабочий стол\\диплом\\Shop\\Shop.BusinessLogic\\Shop.BusinessLogic.csproj": {
+    "C:\\Users\\ab231\\OneDrive\\Документы\\GitHub\\diploma\\Shop\\Shop.BusinessLogic\\Shop.BusinessLogic.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ab231\\OneDrive\\Рабочий стол\\диплом\\Shop\\Shop.BusinessLogic\\Shop.BusinessLogic.csproj",
+        "projectUniqueName": "C:\\Users\\ab231\\OneDrive\\Документы\\GitHub\\diploma\\Shop\\Shop.BusinessLogic\\Shop.BusinessLogic.csproj",
         "projectName": "Shop.BusinessLogic",
-        "projectPath": "C:\\Users\\ab231\\OneDrive\\Рабочий стол\\диплом\\Shop\\Shop.BusinessLogic\\Shop.BusinessLogic.csproj",
+        "projectPath": "C:\\Users\\ab231\\OneDrive\\Документы\\GitHub\\diploma\\Shop\\Shop.BusinessLogic\\Shop.BusinessLogic.csproj",
         "packagesPath": "C:\\Users\\ab231\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ab231\\OneDrive\\Рабочий стол\\диплом\\Shop\\Shop.BusinessLogic\\obj\\",
+        "outputPath": "C:\\Users\\ab231\\OneDrive\\Документы\\GitHub\\diploma\\Shop\\Shop.BusinessLogic\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ab231\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -69,7 +69,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

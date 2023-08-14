@@ -14,3 +14,19 @@ C:\Users\developer\source\repos\Shop\Shop.DataAccess.EFCore\obj\Debug\netcoreapp
 C:\Users\developer\source\repos\Shop\Shop.DataAccess.EFCore\obj\Debug\netcoreapp3.1\Shop.DataAccess.EFCore.dll
 C:\Users\developer\source\repos\Shop\Shop.DataAccess.EFCore\obj\Debug\netcoreapp3.1\Shop.DataAccess.EFCore.pdb
 C:\Users\developer\source\repos\Shop\Shop.DataAccess.EFCore\obj\Debug\netcoreapp3.1\Shop.DataAccess.EFCore.genruntimeconfig.cache
+C:\Users\ab231\OneDrive\Рабочий стол\диплом\Shop\Shop.DataAccess.EFCore\bin\Debug\netcoreapp3.1\Shop.DataAccess.EFCore.deps.json
+C:\Users\ab231\OneDrive\Рабочий стол\диплом\Shop\Shop.DataAccess.EFCore\bin\Debug\netcoreapp3.1\Shop.DataAccess.EFCore.runtimeconfig.json
+C:\Users\ab231\OneDrive\Рабочий стол\диплом\Shop\Shop.DataAccess.EFCore\bin\Debug\netcoreapp3.1\Shop.DataAccess.EFCore.runtimeconfig.dev.json
+C:\Users\ab231\OneDrive\Рабочий стол\диплом\Shop\Shop.DataAccess.EFCore\bin\Debug\netcoreapp3.1\Shop.DataAccess.EFCore.dll
+C:\Users\ab231\OneDrive\Рабочий стол\диплом\Shop\Shop.DataAccess.EFCore\bin\Debug\netcoreapp3.1\Shop.DataAccess.EFCore.pdb
+C:\Users\ab231\OneDrive\Рабочий стол\диплом\Shop\Shop.DataAccess.EFCore\bin\Debug\netcoreapp3.1\Shop.BusinessLogic.dll
+C:\Users\ab231\OneDrive\Рабочий стол\диплом\Shop\Shop.DataAccess.EFCore\bin\Debug\netcoreapp3.1\Shop.BusinessLogic.pdb
+C:\Users\ab231\OneDrive\Рабочий стол\диплом\Shop\Shop.DataAccess.EFCore\obj\Debug\netcoreapp3.1\Shop.DataAccess.EFCore.csproj.AssemblyReference.cache
+C:\Users\ab231\OneDrive\Рабочий стол\диплом\Shop\Shop.DataAccess.EFCore\obj\Debug\netcoreapp3.1\Shop.DataAccess.EFCore.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ab231\OneDrive\Рабочий стол\диплом\Shop\Shop.DataAccess.EFCore\obj\Debug\netcoreapp3.1\Shop.DataAccess.EFCore.AssemblyInfoInputs.cache
+C:\Users\ab231\OneDrive\Рабочий стол\диплом\Shop\Shop.DataAccess.EFCore\obj\Debug\netcoreapp3.1\Shop.DataAccess.EFCore.AssemblyInfo.cs
+C:\Users\ab231\OneDrive\Рабочий стол\диплом\Shop\Shop.DataAccess.EFCore\obj\Debug\netcoreapp3.1\Shop.DataAccess.EFCore.csproj.CoreCompileInputs.cache
+C:\Users\ab231\OneDrive\Рабочий стол\диплом\Shop\Shop.DataAccess.EFCore\obj\Debug\netcoreapp3.1\Shop.DataAccess.EFCore.csproj.CopyComplete
+C:\Users\ab231\OneDrive\Рабочий стол\диплом\Shop\Shop.DataAccess.EFCore\obj\Debug\netcoreapp3.1\Shop.DataAccess.EFCore.dll
+C:\Users\ab231\OneDrive\Рабочий стол\диплом\Shop\Shop.DataAccess.EFCore\obj\Debug\netcoreapp3.1\Shop.DataAccess.EFCore.pdb
+C:\Users\ab231\OneDrive\Рабочий стол\диплом\Shop\Shop.DataAccess.EFCore\obj\Debug\netcoreapp3.1\Shop.DataAccess.EFCore.genruntimeconfig.cache

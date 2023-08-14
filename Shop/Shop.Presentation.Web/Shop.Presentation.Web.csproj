@@ -3,6 +3,7 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
 	<AspNetCoreHostingModel>OutOfProcess</AspNetCoreHostingModel>
+	<UserSecretsId>426f2e6e-d2f0-4561-81e5-a37f8f153697</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>
@@ -40,6 +41,11 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\images\categories\" />
+    <Folder Include="wwwroot\images\products\" />
   </ItemGroup>
 
 </Project>

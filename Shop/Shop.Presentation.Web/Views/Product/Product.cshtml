@@ -9,11 +9,11 @@
     <div class="row-mb-6">
         @if (Model == null)
         {
-            <h3>Product creation</h3>
+            <h3>Добавление товара</h3>
         }
         else
         {
-            <h3 class="horizontal-center">@Model.Name editing</h3>
+            <h3 class="horizontal-center">@Model.Name</h3>
             <img class="img-thumbnail default-img-size"
                  src="@Model.ImagePath"
                  alt="@Model.Name"
